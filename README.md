@@ -60,6 +60,7 @@ Steps to enable auto close html tags
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Save the files name.cpp , input.txt & output.txt files in the same directory not necessarily it has to be in the desktop.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -75,10 +76,10 @@ int main() {
 	cin>>n;
 	cout<<n;
 }
-
+```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 >>
-
+```
 {
  "shell_cmd": "g++ -std=c++14 \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\"",
      "file_regex": "^(..[^:]):([0-9]+):?([0-9]+)?:? (.)$",
@@ -93,7 +94,8 @@ int main() {
        }
      ]
     }
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
 After these steps save the build file named as C++14.sublime-build and close it.
 After that select the C++14 build system .
 
@@ -104,7 +106,6 @@ But when we run the C++ file in sublime text , there appears an error message :
 
 To solve this issue you simply need to copy the path of the bin folder under MinGw to the "Path" variable in User Environment variable.
 Give a "/" if you are adding there are already some paths added.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Restart the Sublime Text and run the Program , it will now execute without producing any errors. 
 
