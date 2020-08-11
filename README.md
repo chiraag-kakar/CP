@@ -1,4 +1,4 @@
-# My Competitive Programming Guide
+# Eat Sleep Code Repeat
 ---
 ## Sublime Text 3 Package Control Installation:
 * Open Sublime Text editor
