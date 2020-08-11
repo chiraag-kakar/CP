@@ -80,7 +80,7 @@ int main() {
 
 * To run the code enter the input case in input.txt file and press ctrl+b .
 
-* * But when we run the C++ file in sublime text , there appears an error message : "g++ is not recognized as internal or external command".
+*But when we run the C++ file in sublime text , there appears an error message : "g++ is not recognized as internal or external command".*
 
 *To solve this issue you simply need to copy the path of the bin folder under MinGw to the "Path" variable in User Environment variable.*
 *Give a "/" if you are adding there are already some paths added.*
