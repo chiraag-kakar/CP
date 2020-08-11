@@ -1,6 +1,5 @@
-# Eat->Code->Sleep (Repeat)
-My Competitive Programming Guide
-
+# My Competitive Programming Guide
+---
 ## Sublime Text 3 Package Control Installation:
 * Open Sublime Text editor
 * Click on the file option 
@@ -32,6 +31,7 @@ echo "Hello Sublime";
 Package Control will be enabled.
 You can find it in the Preferences bar of Sublime Text Editor.
 ```
+---
 ## Sublime Text 3 C++ Setup :
 
 * Click on Tools then select layout->3 columns
@@ -80,11 +80,11 @@ int main() {
 
 * To run the code enter the input case in input.txt file and press ctrl+b .
 
-*But when we run the C++ file in sublime text , there appears an error message : "g++ is not recognized as internal or external command".*
+* But when we run the C++ file in sublime text , there appears an error message : "g++ is not recognized as internal or external command".
 
-*To solve this issue you simply need to copy the path of the bin folder under MinGw to the "Path" variable in User Environment variable.*
-*Give a "/" if you are adding there are already some paths added.*
-
-### Restart the Sublime Text and run the Program , it will now execute without producing any errors. 
+* To solve this issue you simply need to copy the path of the bin folder under MinGw to the "Path" variable in User Environment variable.
+* Give a "/" if you are adding there are already some paths added.
+---
+## Restart the Sublime Text and run the Program , it will now execute without producing any errors. 
 
 
